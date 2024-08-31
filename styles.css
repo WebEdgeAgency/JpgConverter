@@ -1,0 +1,170 @@
+/* Custom styles for the navbar */
+.navbar {
+    border-bottom: 1px solid #dee2e6; /* Adds a subtle border for separation */
+    padding: 1rem; /* Adds some padding for a better look */
+  }
+  
+  .nav-link {
+    margin-right: 10px; /* Adds some space between nav links */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Makes the brand name stand out */
+  }
+  
+  .form-control {
+    width: auto; /* Keeps the search bar size manageable */
+  }
+  
+  @media (max-width: 767.98px) {
+    /* Ensures proper alignment on mobile devices */
+    .navbar-nav {
+      margin-top: 10px;
+    }
+    .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  /* Styles for the Converter Container */
+.container {
+    max-width: 600px; /* Sets a maximum width for the container */
+    padding: 20px;
+    margin-top: 30px; /* Adds some space above the container */
+    background-color: #f8f9fa; /* Light background to match Bootstrap's body tertiary */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Title Styling */
+  h2 {
+    color: #343a40; /* Dark color for the title text */
+    font-weight: bold;
+    margin-bottom: 20px; /* Adds space below the title */
+  }
+  
+  /* Input File Styling */
+  input[type="file"] {
+    border: 1px solid #ced4da; /* Light border to match input fields */
+    border-radius: 4px; /* Slight rounding for inputs */
+    padding: 5px;
+    font-size: 16px; /* Larger text for readability */
+  }
+  
+  /* Button Styling */
+  .btn-outline-success {
+    color: #198754; /* Bootstrap's success color */
+    border-color: #198754;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #198754; /* Changes background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+  /* Download Link Styling */
+  #result a {
+    font-weight: bold; /* Bold text for the download link */
+    text-decoration: none; /* Removes underline for a cleaner look */
+  }
+  
+  #result a:hover {
+    text-decoration: underline; /* Underline on hover for better interaction feedback */
+  }
+  /* Styling for Cards */
+.card {
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+  background-color: #f8f9fa; /* Matches upper container background */
+}
+
+.card-hover:hover {
+  transform: translateY(-5px) rotate(-1deg); /* Giggle effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+.card-title {
+  color: #343a40; /* Dark color for professional look */
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d; /* Subtle gray for the description text */
+}
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+    background-color: #f8f9fa; /* Matches container background */
+  }
+  
+  .article-title {
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  /* Content Box Styling */
+  .content-box {
+    background-color: #ffffff; /* Clean white background */
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Step Container */
+  .step {
+    border-left: 4px solid #007bff; /* Blue border to highlight step */
+    padding-left: 15px;
+    background-color: #f1f8ff; /* Light blue background for the step header */
+    border-radius: 8px;
+  }
+  
+  /* Step Header Styling */
+  .step-header {
+    background-color: #e0e0e0; /* Subtle background for step heading */
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .step-title {
+    color: #007bff; /* Bootstrap's primary color */
+    font-weight: 600;
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Hover Effect on Step Titles */
+  .step:hover .step-title {
+    color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Download Button Styling */
+  .download-btn {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+ /* Footer Styling */
+footer {
+    background-color: #f8f9fa; /* Matches bg-body-tertiary */
+    color: #343a40; /* Dark text for contrast */
+  }
+  
+  footer .text-primary {
+    color: #007bff; /* Bootstrap's primary color */
+  }
+  
+  footer .text-primary:hover {
+    color: #0056b3; /* Darker shade on hover */
+  }
+  
+  footer .text-center {
+    text-align: center;
+  }
+  
